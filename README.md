@@ -1,6 +1,24 @@
 # TChallenge
 GitHub repo of finished assignment and to present the work. To present the written material in a deck
 
+## Architecture
+
+<img width="1041" alt="image" src="https://github.com/pennSword/TChallenge/assets/93257912/3d663e87-d230-40af-b319-3185905ecd8d">
+
+
+## Design Overview
+
+<img width="375" alt="image" src="https://github.com/pennSword/TChallenge/assets/93257912/ed334a88-dd05-45e3-aa55-9d4b0dd3847b">
+
+
+
+
+
+## Implementation Details
+
+
+
+
 Google Cloud Set Up for the Technical Challenge
 
 Machine Type / Region / Zone
@@ -35,4 +53,11 @@ After executing the ETL Pipeline
 <img width="892" alt="image" src="https://github.com/pennSword/TChallenge/assets/93257912/9f4e47ee-4cef-467f-aef4-9a2b8b5334a2">
 
 
+## Testing
 
+Testing performed on negative test data
+
+<img width="709" alt="image" src="https://github.com/pennSword/TChallenge/assets/93257912/cc6f3bdf-968d-4fe0-8077-acced83a6338">
+
+
+## Demo !
