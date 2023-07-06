@@ -1,5 +1,14 @@
-# TChallenge
-GitHub repo of finished assignment and to present the work. To present the written material in a deck
+# Technical Challenge
+GitHub repo of finished assignment and presentation of the work.
+
+## Section 1 Details: Database Configuration & Python ETL
+Here in this section we are solving a Data Engineering Problem. The source of the data is in an Microsoft Excel sheet.
+As part of solution a ETL Pipeline is developed in Pyhton which does :
+- **Extraction**  The source file is brought into Google Cloud Platform and stored as comma seperated values for processing
+- **Transformation**  Email and IPAddress validation are done to ensure the right data gets into the target data
+- **Load**  In the final step the data is loaded into the Postgresql Table called Provider
+
+Overall the data from Microsoft Excel sheet is processed in ETL pipeline and stored into a Relational Database Postgresql
 
 ## Architecture
 
@@ -10,7 +19,16 @@ GitHub repo of finished assignment and to present the work. To present the writt
 
 <img width="375" alt="image" src="https://github.com/pennSword/TChallenge/assets/93257912/ed334a88-dd05-45e3-aa55-9d4b0dd3847b">
 
-
+- **Source File**  Stored in the Google Cloud Platform
+- **Target Database**  The target table where the data is loaded is Provider in the Postgresql Database
+- **Database**  In order to connect to the Postgresql we have used the psycopg2 driver library
+  - _sudo apt-get install python3-psycopg2_
+- **Email Validation**  Using Regex the email validation is performed
+- **IPAddress Validation**  Using Regex the ip address validation is performed
+- **Loading Table** We have used a bulk load operation so that multiple row of data can be loaded at once which increases performance
+- **Testing** We have prepared test data (test_provider) by supplying few invalid email address and ip address
+- **Hardware** The RAM is 10Gb used since we need to handle databases.
+- **Operating System** Ubuntu which is linux operating system is used
 
 
 
@@ -61,3 +79,11 @@ Testing performed on negative test data
 
 
 ## Demo !
+
+
+# Section 2 Details: ML Model Deployment
+
+Deploy an ML model such as MNIST: as an API endpoint.
+
+<img width="943" alt="image" src="https://github.com/pennSword/TChallenge/assets/93257912/75b72340-cad9-419e-9d80-563c431cd501">
+
